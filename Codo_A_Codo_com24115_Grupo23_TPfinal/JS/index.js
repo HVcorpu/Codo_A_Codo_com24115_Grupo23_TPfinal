@@ -1,28 +1,32 @@
+/*
+Codo a codo
+Full Stack Java
+Comisión 24115
+Grupo 23
+Trabajo Práctico Front End
 
+Fecha: 27/05/24
+Última actalización: 25/04/24
+
+*Página de inicio bienvenida
+*/
+
+/// Validacíon del formulario de registro y acceso a la página principal
 
 document.getElementById("enviar").addEventListener("click", function(event){
     event.preventDefault(); // Evita que el formulario se envíe por defecto
     var dato1 = document.getElementById("correo").value; // Obtiene el valor del input
     var dato2 = document.getElementById("clave").value
     if (dato1 == "" || dato2 ==""){
-        mensaje = "*Completar campos obligatorios"  
+        var mensaje = "*Completar campos obligatorios";
         var mensajeElement = document.getElementById("cartel");
         mensajeElement.textContent = mensaje;
     } else{
-        window.location.href = "inicio.html"
+        window.location.href = "inicio.html";
 
     }
   
-
-});
-
-/*
-
-links a para consumo de las API'S
-
-https://my-api.plantnet.org/v2/languages?api-key=2b10NpHum4OcyGR1pzPmTfEjuu
-https://my-api.plantnet.org/v2/species?api-key=2b10NpHum4OcyGR1pzPmTfEjuu
+})
 
 
-*/
 

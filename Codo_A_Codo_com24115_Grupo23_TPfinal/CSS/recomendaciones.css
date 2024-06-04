@@ -1,4 +1,3 @@
-
 /*
 Codo a codo
 Full Stack Java
@@ -76,18 +75,6 @@ section{
     border-radius: 5px;
 }
 
-section:first-of-type{
-    background-color:#d0ece7;
-    border: 2px solid #4d5656;
-}
-
-section:last-of-type {
-    background-color:#7bb5a3;
-    border: 2px solid #4d5656;
-    margin: 20px;
-
-}
-
 
 .container {
     background:#7bb5a3;
@@ -106,6 +93,3 @@ form{
     background-color: #58d68d;
 }
 
-nav{
-    margin: 20px;
-}
